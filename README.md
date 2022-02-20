@@ -1,4 +1,4 @@
-﻿# ClassCalendarMaker
+# ClassCalendarMaker
 
 This tool can help you make an ICS (iCalendar RFC 5545) file of your class scheduler which can be easily imported to Outlook or Apple Calendar.
 
@@ -35,7 +35,7 @@ You need to run this application in command line.
 
 ### Args
 
-- `-?`: Show helps
+- `-?` or `-h` or `--help`: Show helps
 - `-c <classes>` or `--classes <classes>`: Classes json definition file path
 - `-o <output>` or `--output <output>`: Output ICS file path, should end with .ics
 - `-fm <first-monday>` or `--first-monday <first-monday>`: The first monday of this semester, should be in yyyy-MM-dd format
