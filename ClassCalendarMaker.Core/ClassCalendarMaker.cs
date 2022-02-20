@@ -26,12 +26,10 @@ public static class ClassCalendarMaker
     /// Get iCalendar (RFC 5545) string
     /// </summary>
     /// <param name="classes">All classes</param>
-    /// <param name="optionBuilder">Make options</param>
+    /// <param name="options">Make options</param>
     /// <returns>iCalendar (RFC 5545) string</returns>
-    public static string Make(IEnumerable<ClassModel> classes, Func<ClassCalendarMakerOptions> optionBuilder)
+    public static string Make(IEnumerable<ClassModel> classes, ClassCalendarMakerOptions options)
     {
-        var options = optionBuilder.Invoke();
-
         var calendar = new Calendar();
         calendar.AddTimeZone(options.TimeZone);
 
