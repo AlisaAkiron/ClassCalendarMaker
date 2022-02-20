@@ -80,12 +80,12 @@ public static class ClassCalendarMaker
     internal static int ToInt(this DayOfWeek dayOfWeek) =>
         dayOfWeek switch
         {
-            DayOfWeek.Monday => 1,
-            DayOfWeek.Tuesday => 2,
-            DayOfWeek.Wednesday => 3,
-            DayOfWeek.Thursday => 4,
-            DayOfWeek.Friday => 5,
-            DayOfWeek.Saturday => 6,
+            DayOfWeek.Monday => 0,
+            DayOfWeek.Tuesday => 1,
+            DayOfWeek.Wednesday => 2,
+            DayOfWeek.Thursday => 3,
+            DayOfWeek.Friday => 4,
+            DayOfWeek.Saturday => 5,
             DayOfWeek.Sunday => -1,
             _ => throw new ArgumentOutOfRangeException(nameof(dayOfWeek), "Unknown day of week")
         };
