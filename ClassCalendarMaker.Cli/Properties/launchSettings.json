@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "ClassCalendarMaker.Cli": {
-      "commandName": "Project",
-      "commandLineArgs": "-c C:\\Users\\conan\\Desktop\\classes.json -o C:\\Users\\conan\\Desktop\\classes.ics -fm 2022-2-21"
-    }
-  }
-}

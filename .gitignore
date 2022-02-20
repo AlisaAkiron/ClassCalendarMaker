@@ -515,3 +515,6 @@ $RECYCLE.BIN/
 
 # Database File
 *.db*
+
+# Launch Settings
+launchSettings.json
