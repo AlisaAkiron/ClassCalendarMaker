@@ -52,7 +52,7 @@ public static class ClassCalendarMaker
                 var e = new CalendarEvent()
                 {
                     Summary = $"{c.ClassName} [{c.TeacherName}]",
-                    Location = c.Classroom,
+                    Location = t.Classroom,
                     Description = $"{c.ClassId} {c.ClassName} [{c.TeacherName}]",
                     Start = startTime,
                     End = endTime,

@@ -37,12 +37,6 @@ public class ClassModel
     public string TeacherName { get; set; }
 
     /// <summary>
-    /// Classroom
-    /// </summary>
-    [JsonPropertyName("classroom")]
-    public string Classroom { get; set; }
-
-    /// <summary>
     /// Class times
     /// </summary>
     [JsonPropertyName("class_times")]

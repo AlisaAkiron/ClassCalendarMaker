@@ -10,6 +10,7 @@
 // but WITHOUT ANY WARRANTY
 
 using System.Text.Json.Serialization;
+using ClassCalendarMaker.Core.Convertor;
 
 namespace ClassCalendarMaker.Core.Model;
 
@@ -22,6 +23,7 @@ public class ClassTimeModel
     /// Which day the class begin
     /// </summary>
     [JsonPropertyName("day_of_week")]
+    [JsonConverter(typeof(DayOfWeekJsonConvertor))]
     public DayOfWeek DayOfWeek { get; set; }
 
     /// <summary>
@@ -46,11 +48,19 @@ public class ClassTimeModel
     /// Class start time
     /// </summary>
     [JsonPropertyName("start_time")]
+    [JsonConverter(typeof(TimeOnlyJsonConvertor))]
     public TimeOnly StartTime { get; set; }
 
     /// <summary>
     /// Class end time
     /// </summary>
     [JsonPropertyName("end_time")]
+    [JsonConverter(typeof(TimeOnlyJsonConvertor))]
     public TimeOnly EndTime { get; set; }
+
+    /// <summary>
+    /// Classroom
+    /// </summary>
+    [JsonPropertyName("classroom")]
+    public string Classroom { get; set; }
 }
