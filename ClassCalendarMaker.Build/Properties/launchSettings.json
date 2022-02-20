@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ClassCalendarMaker.Build": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\Program\\ClassCalendarMaker\\ClassCalendarMaker.Build"
+    }
+  }
+}
