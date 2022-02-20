@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassCalendarMaker.Core", "ClassCalendarMaker.Core\ClassCalendarMaker.Core.csproj", "{6BFCF7EB-5251-4D0E-A440-70D9DED3A64A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassCalendarMaker.Core", "ClassCalendarMaker.Core\ClassCalendarMaker.Core.csproj", "{1F0560CD-9F91-42CB-B4C5-1B53256D6DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassCalendarMaker.Cli", "ClassCalendarMaker.Cli\ClassCalendarMaker.Cli.csproj", "{9712D87B-4988-48F9-B6D7-D3CA16F2D01A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6BFCF7EB-5251-4D0E-A440-70D9DED3A64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BFCF7EB-5251-4D0E-A440-70D9DED3A64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BFCF7EB-5251-4D0E-A440-70D9DED3A64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BFCF7EB-5251-4D0E-A440-70D9DED3A64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0560CD-9F91-42CB-B4C5-1B53256D6DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0560CD-9F91-42CB-B4C5-1B53256D6DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0560CD-9F91-42CB-B4C5-1B53256D6DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0560CD-9F91-42CB-B4C5-1B53256D6DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9712D87B-4988-48F9-B6D7-D3CA16F2D01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9712D87B-4988-48F9-B6D7-D3CA16F2D01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9712D87B-4988-48F9-B6D7-D3CA16F2D01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9712D87B-4988-48F9-B6D7-D3CA16F2D01A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
